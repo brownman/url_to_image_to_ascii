@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - "0.10"
 
-script:
+after_script:
+  - echo hello world
   - bash -c ./start.sh &
   - sleep 5
   - bash -c ./screenshot.sh
