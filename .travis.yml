@@ -10,7 +10,6 @@ before_install:
 
 
 after_script:
-  - echo hello world
   - bash -c ./start.sh &
   - sleep 5
-  - bash -c ./screenshot.sh
+  - ls -l /tmp/screenshot.png && bash -c ./screenshot.sh
