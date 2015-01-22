@@ -11,5 +11,6 @@ before_install:
 
 after_script:
   - bash -c ./start.sh &
-  - sleep 5
-  - ls -l /tmp/screenshot.png && bash -c ./screenshot.sh &> /dev/null
+  - sleep 6
+  - bash -c ./screenshot.sh &> /dev/null
+ # - ls -l /tmp/screenshot.png && 
