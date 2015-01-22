@@ -11,7 +11,5 @@ before_install:
 
 
 after_script:
-  - bash -c ./start.sh &
-  - sleep 6
-  - bash -c ./screenshot.sh 1>/tmp/out 2>/tmp/err
+  - bash -c ./start.sh & sleep 7 && bash -c ./screenshot.sh
  # - ls -l /tmp/screenshot.png && 
