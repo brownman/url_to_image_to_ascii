@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-set +e
 node server.js &
 sleep 7
 url=${1:-'http://google.com'}
