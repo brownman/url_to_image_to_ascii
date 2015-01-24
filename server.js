@@ -66,7 +66,6 @@ res.send();
 });
 app.get('/screenshot', function(req, res) {
 
-
 //var date1=new Date().toDateString()
 //console.log(date1);
 //
