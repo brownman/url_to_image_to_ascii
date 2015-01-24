@@ -5,3 +5,7 @@ express_test
 
 
 serve image
+
+system dependencies:
+---
+- graphicsmagick
