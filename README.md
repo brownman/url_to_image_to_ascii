@@ -3,8 +3,8 @@
 url to image to ascii
 ============
 **Utilize 2 npm modules:**
-1. convert a url to image 
-2. convert image to ascii
+ 1. convert a url to image 
+ 2. convert image to ascii
 
 system dependencies:
 ---
