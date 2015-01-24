@@ -2,7 +2,8 @@
 
 node server.js &
 sleep 7
-url=${1:-'http://google.com'}
+#http://google.com
+url=${1:-'http://dph.am/jscii/test/image.jpg'}
 
 while :;do
 curl 0.0.0.0:3000/screenshot?url=$url 1>/tmp/out 2>/tmp/err && break || true
