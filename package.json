@@ -13,11 +13,8 @@
   },
   "dependencies": {
   "express": "*",
-  "jade": "*",
-  "body-parser": "*",
   "url-to-screenshot": "*",
   "image-to-ascii": "*",
-  "mkdirp": "*", 
   "phantomjs": "*"
   },
   "author": "",
