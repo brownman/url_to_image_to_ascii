@@ -4,7 +4,7 @@ convert: url -> image -> ascii
 ============
 **Utilize 2 npm modules:**
  1. convert a url to image 
- 2. convert image to ascii
+ 2. convert an image to ascii
 
 system dependencies:
 ---
