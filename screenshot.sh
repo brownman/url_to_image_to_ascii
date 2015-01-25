@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-node server.js &
+netstat -ntlp | grep 300 || { node server.js & }
 sleep 7
 url0='http://google.com'
 url1=''http://dph.am/jscii/test/image.jpg''
