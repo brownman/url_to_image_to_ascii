@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/brownman/url_to_image_to_ascii.svg)](https://travis-ci.org/brownman/url_to_image_to_ascii)
 
+
+![demo](./images/google.png)
+
 convert: url -> image -> ascii
 ============
 **Utilize 2 npm modules:**
