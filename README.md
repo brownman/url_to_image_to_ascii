@@ -18,3 +18,4 @@ why ?
 ---
 - assume the need of image-to-url conversion
 - by printing the image to the console we can debug the first step
+
